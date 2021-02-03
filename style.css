@@ -1,0 +1,183 @@
+body {
+ font-family:sans-serif
+}
+
+nav {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #353A40;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-bar li {
+    list-style: none;
+    float: left;
+}
+
+ul.nav-bar li a {
+    display: block;
+    font-size: 20px;
+    font-weight: 550;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    color: white;
+    margin-left: 30px;
+}
+
+ul.nav-bar li.hamburgerIcon{
+    margin-right: 30px;
+    float: right;
+}
+
+ul.nav-bar li a:hover {
+    background-color: #565C66;
+    color: #FFFFFF;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col-1 {width: 8,33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h1.header1 {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+h1.header2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #8D98A3;
+    text-align: center;
+    padding-right: 35%;
+    padding-left: 35%;
+    margin-top: 10px;
+    
+}
+
+button {
+    font-size: 15px;
+    font-weight: 100;
+    border: 1px solid;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px; 
+    cursor: pointer;
+    
+}
+
+.headerbtn {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    text-align:center;
+    margin:auto;
+}
+
+
+button.maincallbtn {
+    background-color: #007BFF;
+    
+}
+
+button.secondbtn {
+    background-color: #54595C;
+}
+ 
+.headerbtn button:not(:last-child) {
+    border-right: none;
+    margin-left:
+    
+}
+
+div.box {
+    background-color: #FFFFFF;
+    color: #565C66;
+    width: 300px;
+    height: 350px;
+    margin: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px 1px #BEC8CE, 0px 1px 3px 1px #BEC8CE; 
+}
+    
+#maincontainer{
+    display: grid;
+    justify-content:space-around;
+    background-color: #F8F9FA;
+}
+    
+p {
+    text-align: left;
+    margin: 15px;
+}
+    
+.btngroup button {
+    background-color: #FFFFFF;
+    color: #9BA3A8;
+    padding: 3px 8px;  
+    float: left;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.btngroup button:not(:last-child) {
+    border-right: none;
+    margin-left: 15px;
+      
+}
+
+.btngroup button:hover {
+    background-color: #565C66;
+    color: #FFFFFF;
+}
+
+footer.foot {
+    color: darkgrey;
+    font-size: 13px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+}
+
+footer.foot a {
+    color: #007BFF;
+    text-decoration: none;
+    float: right
+}
+
